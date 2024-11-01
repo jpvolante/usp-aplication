@@ -24,8 +24,6 @@ class UserSeeder extends Seeder
         ];
 
         User::create($user);
-
-        // Criando mais 10 usuários de teste usando a fábrica
         User::factory(10)->create();
     }
 }
