@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
