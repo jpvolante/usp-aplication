@@ -20,8 +20,11 @@ class DatabaseSeeder extends Seeder
 
         // Criação de um usuário de teste
         User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
+            'codpes' => '123456',
+            'email' => 'qualquer@usp.br',
+            'name' => 'Fulano da Silva',
+            'is_admin' => true,
+            'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi'
         ]);
     }
 }
